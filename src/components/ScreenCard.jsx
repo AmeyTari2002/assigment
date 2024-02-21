@@ -23,7 +23,7 @@ const ScreenCard = () => {
             {data && (
                 data.map((value, index) => (
                     <div key={index}> 
-                        <div className='flex flex-col md:flex md:flex-row justify-center items-center mx-auto w-min gap-10 px-10 py-10 rounded-lg mt-24 md:mt-56 border-2 border-gray-600 shadow-sm shadow-gray-400 '>
+                        <div className='flex flex-col md:flex md:flex-row justify-center items-center mx-auto w-min gap-10 px-10 py-10 rounded-lg mt-32 md:mt-48  border-2 border-gray-600 shadow-sm shadow-gray-400 '>
                             <div className='h-[250px] w-[250px]'>
                                 <img src={value.picture.large} className='h-[100%] ww-[100%] object-fill rounded-lg shadow-sm shadow-gray-400'  alt="" />
                             </div>
